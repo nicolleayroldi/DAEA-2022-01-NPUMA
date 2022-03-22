@@ -27,8 +27,7 @@ namespace ConsoleApp001
             return a - b;
         }
         //holi
-        //:D
-        //l
+        
         static void Main(string[] args)
         {
             /*Console.WriteLine("Programa LAB 001");
