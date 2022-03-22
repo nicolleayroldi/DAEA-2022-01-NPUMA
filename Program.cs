@@ -32,75 +32,102 @@ namespace ConsoleApp001
             return a / b;
         }
 
-        static int Multiplicacion(int a , int b)
+        static int Multiplicacion(int a, int b)
         {
-            return a  *  b;
+            return a * b;
         }
-        //holi
-
-        static void Main(string[] args)
+        static void primos()
         {
-            /*Console.WriteLine("Programa LAB 001");
-            Raiz();
-            Console.ReadKey();*/
-
-            Console.Title = "Procedimientos y funciones";
-            string opcion;
-            do
+            int cont = 0;
+            for (int i = 2; i <= 30; i++)
             {
-                Console.Clear();
-                Console.WriteLine("[1] Suma de dos números");
-                Console.WriteLine("[2] Imprimir la raíz cuadrada de los 10 primeros números enteros");
-                Console.WriteLine("[3] Resta de dos números");
-                Console.WriteLine("[4] Division de dos números");
-                Console.WriteLine("[5] Multiplicacion de dos numeros");
-                Console.WriteLine("[0] Salir");
-                Console.WriteLine("Ingrese una opción y presione ENTER");
-                opcion = Console.ReadLine();
-                switch (opcion)
+                for (int j = 1; j <= i; j++)
                 {
-                    case "1":
-                        Console.WriteLine("Ingrese el primer número");
-                        int a = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Ingrese el segundo número");
-                        int b = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("La suma de {0} y {1} es {2}", a, b, Suma(a, b));
-                        Console.ReadKey();
-                        break;
-                    case "2":
-                        Console.WriteLine("Calculando...");
-                        Raiz();
-                        Console.ReadKey();
-                        break;
-
-                    case "3":
-                        Console.WriteLine("Ingrese el primer número");
-                        int c = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Ingrese el segundo número");
-                        int d = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("La resta de {0} y {1} es {2}", c, d, Resta(c, d));
-                        Console.ReadKey();
-                        break;
-                    case "4":
-                        Console.WriteLine("Ingrese el primer número");
-                        int e = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Ingrese el segundo número");
-                        int f = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("La division {0} y {1} es {2}", e, f, Division(e, f));
-                        Console.ReadKey();
-                        break;
-                    case "5":
-                        Console.WriteLine("Ingrese el primer número");
-                        int g = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Ingrese el segundo número");
-                        int h = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("La multiplicacion {0} y {1} es {2}", g, h, Multiplicacion(g, h));
-                        Console.ReadKey();
-                        break;
-
+                    if (i % j == 0)
+                    {
+                        cont = cont + 1;
+                    }
                 }
-            } while (!opcion.Equals("0"));
+                if (cont <= 2)
+                {
+                    Console.WriteLine(i);
+                }
+                cont = 0;
+            }
+        }
+            //holi
 
+            static void Main(string[] args)
+            {
+                /*Console.WriteLine("Programa LAB 001");
+                Raiz();
+                Console.ReadKey();*/
+
+                Console.Title = "Procedimientos y funciones";
+                string opcion;
+                do
+                {
+                    Console.Clear();
+                    Console.WriteLine("[1] Suma de dos números");
+                    Console.WriteLine("[2] Imprimir la raíz cuadrada de los 10 primeros números enteros");
+                    Console.WriteLine("[3] Resta de dos números");
+                    Console.WriteLine("[4] Division de dos números");
+                    Console.WriteLine("[5] Multiplicacion de dos numeros");
+                    Console.WriteLine("[6]Primos");
+                    Console.WriteLine("[0] Salir");
+                    Console.WriteLine("Ingrese una opción y presione ENTER");
+                    opcion = Console.ReadLine();
+                    switch (opcion)
+                    {
+                        case "1":
+                            Console.WriteLine("Ingrese el primer número");
+                            int a = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine("Ingrese el segundo número");
+                            int b = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine("La suma de {0} y {1} es {2}", a, b, Suma(a, b));
+                            Console.ReadKey();
+                            break;
+                        case "2":
+                            Console.WriteLine("Calculando...");
+                            Raiz();
+                            Console.ReadKey();
+                            break;
+
+                        case "3":
+                            Console.WriteLine("Ingrese el primer número");
+                            int c = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine("Ingrese el segundo número");
+                            int d = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine("La resta de {0} y {1} es {2}", c, d, Resta(c, d));
+                            Console.ReadKey();
+                            break;
+                        case "4":
+                            Console.WriteLine("Ingrese el primer número");
+                            int e = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine("Ingrese el segundo número");
+                            int f = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine("La division {0} y {1} es {2}", e, f, Division(e, f));
+                            Console.ReadKey();
+                            break;
+                        case "5":
+                            Console.WriteLine("Ingrese el primer número");
+                            int g = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine("Ingrese el segundo número");
+                            int h = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine("La multiplicacion {0} y {1} es {2}", g, h, Multiplicacion(g, h));
+                            Console.ReadKey();
+                            break;
+                        case "6":
+                            Console.WriteLine("En proceso");
+                            primos();
+                            Console.ReadKey();
+                            break;
+
+
+                    }
+                } while (!opcion.Equals("0"));
+
+            }
         }
     }
-}
+
