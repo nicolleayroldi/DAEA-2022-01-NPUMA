@@ -42,6 +42,7 @@ namespace Lab03
             this.btnEstado = new System.Windows.Forms.Button();
             this.btnDesconectar = new System.Windows.Forms.Button();
             this.btnUsuario = new System.Windows.Forms.Button();
+            this.btnPersona = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -161,7 +162,7 @@ namespace Lab03
             // 
             // btnUsuario
             // 
-            this.btnUsuario.Location = new System.Drawing.Point(165, 226);
+            this.btnUsuario.Location = new System.Drawing.Point(108, 226);
             this.btnUsuario.Name = "btnUsuario";
             this.btnUsuario.Size = new System.Drawing.Size(75, 23);
             this.btnUsuario.TabIndex = 12;
@@ -169,11 +170,22 @@ namespace Lab03
             this.btnUsuario.UseVisualStyleBackColor = true;
             this.btnUsuario.Click += new System.EventHandler(this.btnUsuario_Click);
             // 
+            // btnPersona
+            // 
+            this.btnPersona.Location = new System.Drawing.Point(224, 226);
+            this.btnPersona.Name = "btnPersona";
+            this.btnPersona.Size = new System.Drawing.Size(75, 23);
+            this.btnPersona.TabIndex = 13;
+            this.btnPersona.Text = "Persona";
+            this.btnPersona.UseVisualStyleBackColor = true;
+            this.btnPersona.Click += new System.EventHandler(this.btnPersona_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(419, 261);
+            this.Controls.Add(this.btnPersona);
             this.Controls.Add(this.btnUsuario);
             this.Controls.Add(this.btnDesconectar);
             this.Controls.Add(this.btnEstado);
@@ -210,6 +222,7 @@ namespace Lab03
         private System.Windows.Forms.Button btnEstado;
         private System.Windows.Forms.Button btnDesconectar;
         private System.Windows.Forms.Button btnUsuario;
+        private System.Windows.Forms.Button btnPersona;
     }
 }
 

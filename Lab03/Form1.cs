@@ -135,5 +135,12 @@ namespace Lab03
             Usuario usuario = new Usuario(conn);
             usuario.Show();
         }
+
+
+        private void btnPersona_Click(object sender, EventArgs e)
+        {
+            Persona persona = new Persona(conn);
+            persona.Show();
+        }
     }
 }

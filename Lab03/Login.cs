@@ -73,5 +73,7 @@ namespace Lab03
         {
             this.Close();
         }
+
+       
     }
 }

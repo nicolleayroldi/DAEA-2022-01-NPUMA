@@ -10,3 +10,4 @@ C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab03\obj\
 C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab03\obj\Debug\Lab03.pdb
 C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab03\obj\Debug\Lab03.Usuario.resources
 C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab03\obj\Debug\Lab03.Login.resources
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab03\obj\Debug\Lab03.Persona.resources
