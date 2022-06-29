@@ -1,0 +1,6 @@
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab07\Datos\bin\Debug\Datos.dll
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab07\Datos\bin\Debug\Datos.pdb
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab07\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab07\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab07\Datos\obj\Debug\Datos.dll
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab07\Datos\obj\Debug\Datos.pdb
