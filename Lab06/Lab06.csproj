@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A478DE7B-1968-497C-8498-8F30B2AC3D8A}</ProjectGuid>
+    <ProjectGuid>{6CD94A74-F222-490D-B317-958E35B9AAFE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Lab05</RootNamespace>
-    <AssemblyName>Lab05</AssemblyName>
+    <RootNamespace>Lab06</RootNamespace>
+    <AssemblyName>Lab06</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mantenimiento de Personas.cs">
+    <Compile Include="Mantenimiento de Persona.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimiento de Personas.Designer.cs">
-      <DependentUpon>Mantenimiento de Personas.cs</DependentUpon>
+    <Compile Include="Mantenimiento de Persona.Designer.cs">
+      <DependentUpon>Mantenimiento de Persona.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Mantenimiento de Personas.resx">
-      <DependentUpon>Mantenimiento de Personas.cs</DependentUpon>
+    <EmbeddedResource Include="Mantenimiento de Persona.resx">
+      <DependentUpon>Mantenimiento de Persona.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

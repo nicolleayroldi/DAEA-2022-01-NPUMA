@@ -1,0 +1,10 @@
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab06\bin\Debug\Lab06.exe.config
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab06\bin\Debug\Lab06.exe
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab06\bin\Debug\Lab06.pdb
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab06\obj\Debug\Lab06.csproj.AssemblyReference.cache
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab06\obj\Debug\Lab06.Form1.resources
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab06\obj\Debug\Lab06.Properties.Resources.resources
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab06\obj\Debug\Lab06.csproj.GenerateResource.cache
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab06\obj\Debug\Lab06.csproj.CoreCompileInputs.cache
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab06\obj\Debug\Lab06.exe
+C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab06\obj\Debug\Lab06.pdb
