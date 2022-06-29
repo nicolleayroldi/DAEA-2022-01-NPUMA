@@ -67,7 +67,7 @@ namespace Lab03
                     String FirstName = txtNombre.Text;
 
                     SqlCommand cmd = new SqlCommand();
-                    cmd.CommandText = "BuscarPersonalNombre";
+                    cmd.CommandText = "BuscarPersonaNombre";
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Connection = conn;
 
