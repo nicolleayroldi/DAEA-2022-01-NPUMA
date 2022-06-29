@@ -8,18 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Lab02_01
+namespace Lab03
 {
-    public partial class frmLogin : Form
+    public partial class Login : Form
     {
-        public frmLogin()
+        public Login()
         {
             InitializeComponent();
         }
 
         private void btnIniciar_Click(object sender, EventArgs e)
         {
-            //PrincipalMDI principal = new PrincipalMDI();
+            //Form1 principal = new Form1();
             //principal.Show();
             //this.Hide();
             Dictionary<String, String> Usuarios = new Dictionary<string, string>();
@@ -46,7 +46,7 @@ namespace Lab02_01
 
                 if (usuarioEncontrado.Equals(txtPassword.Text))
                 {
-                    PrincipalMDI principal = new PrincipalMDI();
+                    Form1 principal = new Form1();
                     principal.Show();
                     this.Hide();
                 }
@@ -68,14 +68,10 @@ namespace Lab02_01
                 txtUsuario.Focus();
             }
         }
+
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-        
-        private void frmLogin_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

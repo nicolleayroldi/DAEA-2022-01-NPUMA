@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B43692FB-FFF6-4765-9F8E-B3C04D6F4A4A}</ProjectGuid>
+    <ProjectGuid>{BC054EDB-61B0-42B6-9338-90884888E59E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Lab02_01</RootNamespace>
-    <AssemblyName>Lab02-01</AssemblyName>
+    <RootNamespace>Lab03</RootNamespace>
+    <AssemblyName>Lab03</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,43 +46,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmLogin.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogin.Designer.cs">
-      <DependentUpon>frmLogin.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainUsuario.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainUsuario.Designer.cs">
-      <DependentUpon>MainUsuario.cs</DependentUpon>
-    </Compile>
-    <Compile Include="NicolleMDI.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="NicolleMDI.Designer.cs">
-      <DependentUpon>NicolleMDI.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PrincipalMDI.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PrincipalMDI.Designer.cs">
-      <DependentUpon>PrincipalMDI.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmLogin.resx">
-      <DependentUpon>frmLogin.cs</DependentUpon>
+    <Compile Include="Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuario.Designer.cs">
+      <DependentUpon>Usuario.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainUsuario.resx">
-      <DependentUpon>MainUsuario.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NicolleMDI.resx">
-      <DependentUpon>NicolleMDI.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PrincipalMDI.resx">
-      <DependentUpon>PrincipalMDI.cs</DependentUpon>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -93,6 +81,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Usuario.resx">
+      <DependentUpon>Usuario.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
