@@ -1,9 +1,0 @@
-C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab07\Negocio\bin\Debug\Negocio.dll
-C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab07\Negocio\bin\Debug\Negocio.pdb
-C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab07\Negocio\bin\Debug\Datos.dll
-C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab07\Negocio\bin\Debug\Datos.pdb
-C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab07\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
-C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab07\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
-C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab07\Negocio\obj\Debug\Negocio.csproj.CopyComplete
-C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab07\Negocio\obj\Debug\Negocio.dll
-C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\Lab07\Negocio\obj\Debug\Negocio.pdb
