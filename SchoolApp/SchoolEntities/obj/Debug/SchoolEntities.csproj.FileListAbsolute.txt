@@ -1,6 +1,0 @@
-C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\SchoolApp\SchoolEntities\bin\Debug\SchoolEntities.dll
-C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\SchoolApp\SchoolEntities\bin\Debug\SchoolEntities.pdb
-C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\SchoolApp\SchoolEntities\obj\Debug\SchoolEntities.csproj.AssemblyReference.cache
-C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\SchoolApp\SchoolEntities\obj\Debug\SchoolEntities.csproj.CoreCompileInputs.cache
-C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\SchoolApp\SchoolEntities\obj\Debug\SchoolEntities.dll
-C:\Users\Nicolle'Nikia\source\repos\nicolleayroldi\DAEA-2022-01-NPUMA\SchoolApp\SchoolEntities\obj\Debug\SchoolEntities.pdb
